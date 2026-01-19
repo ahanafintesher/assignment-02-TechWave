@@ -32,7 +32,8 @@
     
     <header class="max-w-[1600px] mx-auto w-full">
 
-       <nav class="bg-[#412567] p-5 xl:px-[200px] py-6">
+      <section>
+         <nav class="bg-[#1A0B2E] p-5 xl:px-[200px] py-6">
             <div class="flex justify-between items-center">
                 <div class="logo">
                     <h1 class="text-4xl font-extrabold"><span class="text-white">Tech</span><span class="text-transparent bg-clip-text bg-linear-to-b from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">Wave</span></h1>
@@ -51,6 +52,38 @@
             </div>
 
         </nav>
+      </section>
+      <hr class="text-[#412567]">
+
+      <section id="banner" class="max-w-[1600px] mx-auto w-full">
+        <div
+          class="bg-[url('/assets/hero-bg.png')]
+                aspect-1600/760
+                max-w-[1600px]
+                w-full
+                bg-cover bg-center bg-no-repeat
+                flex flex-col items-center justify-center"
+        >
+          <div class="relative aspect-square w-[clamp(180px,35vw,360px)]">
+            <img
+              class="absolute inset-0 z-0 h-full w-full object-contain"
+              src="./assets/hero-circle.png"
+              alt=""
+            />
+            <img
+              class="absolute inset-0 z-10 h-full w-full object-contain"
+              src="./assets/microphone.png"
+              alt=""
+            />
+          </div>
+
+          <div>
+            <h1 class="text-6xl font-extrabold text-white mt-6 mb-2 text-center md:mt-14   ">TechWave</h1>
+            <p class="text-lg text-white text-center">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+          </div>
+        </div>
+</section>
+
     </header>
 
   </body>
